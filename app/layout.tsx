@@ -6,8 +6,8 @@ import { Main } from "@/components/craft";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "cameron.so",
-  description: "All the things I make.",
+  title: "SQL Demo",
+  description: "Learning how to use SQL",
   metadataBase: new URL("https://cameron.so"),
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
           <Header />
           <Main className="flex flex-col">{children}</Main>
           <p className="hidden md:block fixed bottom-4 right-4 text-xs">
-            © Cameron Youngblood, All rights reserved.
+            Demo by Skill Issue Studio
           </p>
           <Toaster />
         </ThemeProvider>

@@ -1,8 +1,9 @@
-export default function Home() {
+import { DemoCard } from "@/components/demo-card";
+
+export default function Page() {
   return (
     <>
-      <h1>Hello there</h1>
-      <p>SQL test repo</p>
+      <DemoCard />
     </>
   );
 }

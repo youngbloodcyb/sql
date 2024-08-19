@@ -1,9 +1,11 @@
-import { DemoCard } from "@/components/demo-card";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <>
-      <DemoCard />
+      <Link href="/topics" className="underline">
+        topics
+      </Link>
     </>
   );
 }
